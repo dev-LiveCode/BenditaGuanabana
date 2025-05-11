@@ -1,0 +1,15 @@
+{
+  "name": "benditaguanabana",
+  "version": "1.0.0",
+  "description": "**BenditaGuanabana** es una landing page para un salón de postres con inspiración paisa y enfoque en la guanábana como fruta insignia. El proyecto nace con la intención de dar visibilidad al emprendimiento de un joven paisa que ha trasladado su sazón y creatividad desde Medellín hasta Soacha, Cundinamarca.",
+  "main": "index.js",
+  "scripts": {
+    "build:styles": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.6",
+    "tailwindcss": "^4.1.6"
+  }
+}
