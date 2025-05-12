@@ -1,1 +1,86 @@
 @import "tailwindcss";
+
+@theme {
+  /* Baige Bendita Guanabana */
+  --color-beige-bendita-50: #f6f4df; /* Primary Baige brand manual */
+  --color-beige-bendita-100: #f3efce;
+  --color-beige-bendita-200: #e7dfa1;
+  --color-beige-bendita-300: #dac86a;
+  --color-beige-bendita-400: #ceb241;
+  --color-beige-bendita-500: #be9d34;
+  --color-beige-bendita-600: #a47c2a;
+  --color-beige-bendita-700: #835d25;
+  --color-beige-bendita-800: #6e4c25;
+  --color-beige-bendita-900: #5f4024;
+  --color-beige-bendita-950: #362212;
+
+  /* Brown Bendita Guanabana */
+  --color-brown-bendita-50: #fcf5f4;
+  --color-brown-bendita-100: #fae8e6;
+  --color-brown-bendita-200: #f7d4d1;
+  --color-brown-bendita-300: #f1b5b0;
+  --color-brown-bendita-400: #e68b83;
+  --color-brown-bendita-500: #d8655b;
+  --color-brown-bendita-600: #c4493e;
+  --color-brown-bendita-700: #a43a31;
+  --color-brown-bendita-800: #93372f; /* primary brown primary brand manual */
+  --color-brown-bendita-900: #72302a;
+  --color-brown-bendita-950: #3d1512;
+
+  /* Green light Bendita Gauanabana */
+  --color-light-green-bendita-50: #f2fbf3;
+  --color-light-green-bendita-100: #e0f8e2;
+  --color-light-green-bendita-200: #c3efc8;
+  --color-light-green-bendita-300: #94e19e;
+  --color-light-green-bendita-400: #5eca6b;
+  --color-light-green-bendita-500: #3ab54a; /* primary green light brand manual */
+  --color-light-green-bendita-600: #299036;
+  --color-light-green-bendita-700: #23722e;
+  --color-light-green-bendita-800: #215a29;
+  --color-light-green-bendita-900: #1d4a24;
+  --color-light-green-bendita-950: #0b2810;
+
+  /* dark green Bendita guanabana  */
+  --color-dark-green-bendita-50: #f5f9f4;
+  --color-dark-green-bendita-100: #e6f3e5;
+  --color-dark-green-bendita-200: #cfe5cd;
+  --color-dark-green-bendita-300: #a8d0a5;
+  --color-dark-green-bendita-400: #7ab276;
+  --color-dark-green-bendita-500: #569552;
+  --color-dark-green-bendita-600: #447940;
+  --color-dark-green-bendita-700: #386035;
+  --color-dark-green-bendita-800: #2e4e2d;
+  --color-dark-green-bendita-900: #2b462a; /* primary dark green brand manual */
+  --color-dark-green-bendita-950: #112211;
+
+  /* pink Bendita Guanabana */
+  --color-pink-bendita-50: #fdf3f5;
+  --color-pink-bendita-100: #fce7ea;
+  --color-pink-bendita-200: #f5c3cc; /* primary pink-bendita brand manual */
+  --color-pink-bendita-300: #f2afbc;
+  --color-pink-bendita-400: #e98398;
+  --color-pink-bendita-500: #dd5675;
+  --color-pink-bendita-600: #c8365e;
+  --color-pink-bendita-700: #a8284e;
+  --color-pink-bendita-800: #8d2447;
+  --color-pink-bendita-900: #792242;
+  --color-pink-bendita-950: #430e20;
+}
+
+@layer base {
+  /* 
+  This section is for defining global styles for HTML tags using @apply. Ideal for typography, reset or default styles (e.g. body, h1). 
+  */
+}
+
+@layer components {
+  /* 
+  This section is for defining reusable custom components (e.g. .btn, .card) by applying multiple Tailwind classes with @apply.
+  */
+}
+
+@layer utilities {
+  /* 
+  This section is for defining custom utility classes that behave like the native Tailwind classes. They are added at the end of the cascade. 
+  */
+}
